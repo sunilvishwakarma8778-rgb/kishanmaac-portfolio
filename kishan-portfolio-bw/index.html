@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kishan Maddheshiya | Graphic & UI/UX Designer</title>
+    <meta
+      name="description"
+      content="Portfolio of Kishan Maddheshiya, graphic designer and aspiring UI/UX designer from Gorakhpur."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=DM+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ============ NAVBAR ============ -->
+    <header class="nav" id="top">
+      <div class="container nav__inner">
+        <a href="#top" class="nav__logo">Kishan Maddheshiya</a>
+
+        <button
+          class="nav__toggle"
+          id="navToggle"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="navLinks"
+        >
+          <span></span><span></span>
+        </button>
+
+        <nav class="nav__links" id="navLinks" aria-label="Main">
+          <a href="#work">Work</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- ============ HERO ============ -->
+      <section class="hero">
+        <div class="container hero__inner">
+          <div class="hero__text">
+            <p class="hero__role">Graphic Designer and UI/UX Designer</p>
+            <h1>Clear, considered design for brands and screens.</h1>
+            <p class="hero__lead">
+              I design logos, shop branding and promotional creatives with
+              careful typography, colour and layout. Now building my skills in
+              UI/UX design.
+            </p>
+            <div class="hero__actions">
+              <a href="#work" class="btn btn--primary">View All work</a>
+              <!-- RESUME: put your PDF in this folder and keep the same file name -->
+              <a href="resume.pdf" class="btn btn--ghost" download
+                >Download resume</a
+              >
+            </div>
+          </div>
+
+          <div class="hero__media">
+            <!-- HERO IMAGE: replace the src with your own photo, e.g. images/kishan.jpg -->
+            <img
+              src="images/kishan.jpeg"
+              alt="Portrait of Kishan Maddheshiya"
+              width="800"
+              height="1000"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ WORK ============ -->
+      <section class="section" id="work">
+        <div class="container">
+          <a href="https://example.com" target="_blank" class="work-link">
+            <div class="container">
+              <div class="section__head">
+                <h2>Selected work</h2>
+                <p>Select a project to read how I approached it.</p>
+              </div>
+            </div>
+          </a>
+
+          <div class="work-grid">
+            <a
+              href="https://drive.google.com/drive/folders/1zDz1LBZHzvzAyyvuAvND4lxvGCWqPdFd"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="card"
+            >
+              <div class="card__img">
+                <img
+                  src="images/raj mobile.png"
+                  alt="Raj Mobile Hub branding"
+                  loading="lazy"
+                />
+              </div>
+              <div class="card__body">
+                <h3>Raj Mobile Hub</h3>
+                <p>Retail branding for a mobile shop</p>
+                <span class="tag">Client project</span>
+              </div>
+            </a>
+
+            <a
+              href="https://drive.google.com/drive/folders/1e4RX4U6cvzIBa1Ua5SoOwnbElCOmH-kN"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="card"
+            >
+              <div class="card__img">
+                <img
+                  src="https://picsum.photos/seed/grocery-mart/900/700"
+                  alt="Shree Khatushyam Grocery Mart branding"
+                  loading="lazy"
+                />
+              </div>
+              <div class="card__body">
+                <h3>Shree Khatushyam Grocery Mart</h3>
+                <p>Shop identity and promotions</p>
+                <span class="tag">Shop branding</span>
+              </div>
+            </a>
+
+            <a
+              href="https://drive.google.com/drive/folders/1JSNT7ZqR3V309TF_2nlea-yq6FRaiL4M"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="card"
+            >
+              <div class="card__img">
+                <img
+                  src="https://picsum.photos/seed/whisky-brand/900/700"
+                  alt="100 Pipers Whisky branding concept"
+                  loading="lazy"
+                />
+              </div>
+              <div class="card__body">
+                <h3>100 Pipers Whisky</h3>
+                <p>A premium branding direction</p>
+                <span class="tag">Concept project</span>
+              </div>
+            </a>
+
+            <a
+              href="https://drive.google.com/drive/folders/1zDz1LBZHzvzAyyvuAvND4lxvGCWqPdFd"
+              target="_blank"
+              rel="noopener noreferrer" 
+              class="card"
+            >
+              <div class="card__img">
+                <img
+                  src="https://picsum.photos/seed/uiux-screens/900/700"
+                  alt="UI/UX project screens"
+                  loading="lazy"
+                />
+              </div>
+              <div class="card__body">
+                <h3>UI/UX project</h3>
+                <p>App or website screens in Figma</p>
+                <span class="tag">UI/UX</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ ABOUT ============ -->
+      <section class="section section--tint" id="about">
+        <div class="container about">
+          <div class="about__text">
+            <h2>About me</h2>
+            <p>
+              I am a graphic designer from Gorakhpur, Uttar Pradesh, and I am
+              moving towards UI/UX design. My work so far is in retail branding,
+              shop identity and promotional creatives, where product visibility
+              and a clear information hierarchy matter most.
+            </p>
+            <p>
+              I am looking for an entry-level graphic design or UI/UX role where
+              I can contribute and keep learning in a professional team.
+            </p>
+          </div>
+
+          <div class="about__side">
+            <div class="info">
+              <h3>Education</h3>
+              <ul>
+                <li>
+                  <strong>Advanced Program of Digital Media &amp; Design</strong
+                  ><span>MAAC, course almost complete</span>
+                </li>
+                <li>
+                  <strong>B.Sc. Mathematics</strong
+                  ><span>3rd year appearing</span>
+                </li>
+                <li><strong>Class 12</strong><span>UP Board, 2023</span></li>
+                <li><strong>Class 10</strong><span>CBSE Board, 2021</span></li>
+              </ul>
+            </div>
+
+            <div class="info">
+              <h3>How I work</h3>
+              <ol>
+                <li>Understand the brief and the audience.</li>
+                <li>Research references and explore layouts.</li>
+                <li>Refine type, colour and composition for clarity.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ SKILLS ============ -->
+      <section class="section" id="skills">
+        <div class="container">
+          <div class="section__head">
+            <h2>Skills and tools</h2>
+          </div>
+
+          <div class="skills">
+            <div>
+              <h3>Design skills</h3>
+              <ul class="chips">
+                <li>Graphic design</li>
+                <li>UI/UX design</li>
+                <li>Logo design</li>
+                <li>Social media posts</li>
+                <li>Branding and brand identity</li>
+                <li>Typography and layout</li>
+                <li>Visual communication</li>
+                <li>Basic motion and animation</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Tools and software</h3>
+              <ul class="chips">
+                <li>Photoshop</li>
+                <li>Illustrator</li>
+                <li>InDesign</li>
+                <li>Figma</li>
+                <li>Premiere Pro</li>
+                <li>Animate CC</li>
+                <li>Toon Boom Harmony</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ CONTACT ============ -->
+      <section class="section section--dark" id="contact">
+        <div class="container contact">
+          <div class="contact__text">
+            <h2>Let's work together</h2>
+            <p>
+              Have a project or an opening for a designer? Send me a message.
+            </p>
+
+            <ul class="contact__list">
+              <li>
+                <span>Email</span
+                ><a href="mailto:kmadheshiya278@gmail.com"
+                  >kmadheshiya278@gmail.com</a
+                >
+              </li>
+              <li>
+                <span>Phone</span
+                ><a href="tel:+919170560502">+91 91705 60502</a>
+              </li>
+              <li><span>Location</span>Gorakhpur, Uttar Pradesh</li>
+              <!-- SOCIAL LINKS: replace each # with your real profile link -->
+              <li>
+                <span>LinkedIn</span
+                ><a href="#" target="_blank" rel="noopener"
+                  >Add your LinkedIn link</a
+                >
+              </li>
+              <li>
+                <span>Instagram</span
+                ><a href="#" target="_blank" rel="noopener"
+                  >Add your Instagram link</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <form class="form" id="contactForm" novalidate>
+            <label for="name">Name</label>
+            <input
+              id="name"
+              name="name"
+              type="text"
+              autocomplete="name"
+              required
+            />
+
+            <label for="email">Email</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              autocomplete="email"
+              required
+            />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <p class="form__status" id="formStatus" role="status"></p>
+            <button type="submit" class="btn btn--primary">Send message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p>&copy; <span id="year"></span> Kishan Maddheshiya</p>
+        <a href="#top">Back to top</a>
+      </div>
+    </footer>
+
+    <!-- ============ PROJECT POPUP ============ -->
+    <dialog class="modal" id="modal" aria-labelledby="modalTitle">
+      <button class="modal__close" id="modalClose" aria-label="Close">
+        &times;
+      </button>
+      <img class="modal__img" id="modalImg" src="" alt="" />
+      <div class="modal__body">
+        <span class="tag" id="modalTag"></span>
+        <h3 id="modalTitle"></h3>
+        <dl>
+          <dt>Brief</dt>
+          <dd id="modalBrief"></dd>
+          <dt>Approach</dt>
+          <dd id="modalApproach"></dd>
+          <dt>Tools</dt>
+          <dd id="modalTools"></dd>
+        </dl>
+      </div>
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>
